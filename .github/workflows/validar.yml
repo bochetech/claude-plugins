@@ -1,0 +1,21 @@
+name: validar
+on:
+  pull_request:
+  push:
+    branches: [main]
+jobs:
+  validar:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 22
+      - run: npm install -g @anthropic-ai/claude-code > /dev/null
+      - run: claude plugin validate .
+      - run: |
+          for p in $(python3 -c 'import json; [print(p["source"]) for p in json.load(open(".claude-plugin/marketplace.json"))["plugins"]]'); do claude plugin validate "$p"; done
+      - if: github.event_name == 'pull_request'
+        run: bash scripts/check-version-bump.sh "origin/${{ github.base_ref }}"

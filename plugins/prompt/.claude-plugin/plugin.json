@@ -1,0 +1,8 @@
+{
+  "name": "prompt",
+  "version": "0.2.2",
+  "description": "Método de trabajo con encargos en cuatro cajas y bucle constructor–crítico: mejorar, ejecutar y diagnosticar.",
+  "author": {
+    "name": "bochetech"
+  }
+}

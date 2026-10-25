@@ -1,0 +1,6 @@
+schema_version: "1.1"
+name: diagnosticar-logs-console
+description: diagnosticar corrige solo la sección ambigua, agrega una eval autocontenida, sube la versión y no hace commit
+tags: [diagnosticar]
+context:
+  scaffold_script: fixture.sh

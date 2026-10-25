@@ -1,0 +1,17 @@
+{
+  "name": "boche",
+  "owner": {
+    "name": "bochetech"
+  },
+  "metadata": {
+    "description": "Plugins personales de Claude Code."
+  },
+  "plugins": [
+    {
+      "name": "prompt",
+      "source": "./plugins/prompt",
+      "description": "Encargos rigurosos: cuatro cajas (tarea, método, listón, restricciones) y bucle constructor–crítico. Comandos mejorar, ejecutar y diagnosticar.",
+      "category": "productividad"
+    }
+  ]
+}

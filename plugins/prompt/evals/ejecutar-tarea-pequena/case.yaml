@@ -1,0 +1,6 @@
+schema_version: "1.1"
+name: ejecutar-tarea-pequena
+description: en un cambio de una línea, ejecutar lo dice y lo resuelve directo, sin cuatro cajas ni crítico
+tags: [ejecutar]
+context:
+  scaffold_script: fixture.sh
