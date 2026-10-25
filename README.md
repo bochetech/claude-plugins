@@ -7,7 +7,7 @@
 /plugin install prompt@boche
 ```
 
-El repo es privado: Claude Code usa tus credenciales de git (`gh auth login`) para clonarlo. Las actualizaciones llegan con `/plugin marketplace update boche`.
+El repo es público y de solo lectura: cualquiera puede instalarlo, pero solo el dueño publica cambios. Las actualizaciones llegan con `/plugin marketplace update boche`.
 
 ## Plugins
 
