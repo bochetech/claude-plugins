@@ -1,0 +1,8 @@
+{
+  "name": "estrategia-agil",
+  "version": "0.1.0",
+  "description": "Formular, implementar y hacer seguimiento a la estrategia ágil de una organización: tres fases, One Page Strategy y OKR, documentado en Notion o Markdown.",
+  "author": {
+    "name": "bochetech"
+  }
+}
