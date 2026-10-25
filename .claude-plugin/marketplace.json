@@ -12,6 +12,12 @@
       "source": "./plugins/prompt",
       "description": "Encargos rigurosos: cuatro cajas (tarea, método, listón, restricciones) y bucle constructor–crítico. Comandos mejorar, ejecutar y diagnosticar.",
       "category": "productividad"
+    },
+    {
+      "name": "estrategia-agil",
+      "source": "./plugins/estrategia-agil",
+      "description": "Estrategia ágil para organizaciones: guía las fases de estrategia, implementación y escalamiento, la One Page Strategy con OKR y el seguimiento, documentado en Notion o Markdown.",
+      "category": "estrategia"
     }
   ]
 }

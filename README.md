@@ -5,6 +5,7 @@
 ```
 /plugin marketplace add bochetech/claude-plugins
 /plugin install prompt@boche
+/plugin install estrategia-agil@boche
 ```
 
 El repo es público y de solo lectura: cualquiera puede instalarlo, pero solo el dueño publica cambios. Las actualizaciones llegan con `/plugin marketplace update boche`.
@@ -14,6 +15,7 @@ El repo es público y de solo lectura: cualquiera puede instalarlo, pero solo el
 | Plugin | Para qué | Comandos |
 |---|---|---|
 | [`prompt`](plugins/prompt/README.md) | Encargos rigurosos: cuatro cajas y bucle constructor–crítico | `/prompt:mejorar`, `/prompt:ejecutar`, `/prompt:diagnosticar` |
+| [`estrategia-agil`](plugins/estrategia-agil/README.md) | Formular, implementar y hacer seguimiento a la estrategia ágil de una organización | `/estrategia-agil:estrategia` |
 
 ## Estructura
 
@@ -37,6 +39,7 @@ Probar en local:
 ```
 /plugin marketplace add ~/Documents/bochetech/claude-plugins
 /plugin install prompt@boche
+/plugin install estrategia-agil@boche
 ```
 
 Desde la terminal:
@@ -44,5 +47,6 @@ Desde la terminal:
 ```
 claude plugin validate .
 claude plugin validate plugins/prompt
+claude plugin validate plugins/estrategia-agil
 claude plugin eval plugins/prompt --scaffold --runs 1      # consume API
 ```
