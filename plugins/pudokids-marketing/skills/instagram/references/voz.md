@@ -23,6 +23,14 @@ Viene de la base teórica de la app (crianza positiva, economía de fichas, auto
 - Seguridad: nada de cuchillos, fuego ni productos químicos para menores de 11.
 - Los juegos de PudoPlay complementan las tareas de casa; no las reemplazan.
 
+## Decisiones del índice de Redes Sociales (Drive)
+
+- Una sola cuenta, @pudokids. Los reels se republican en TikTok y YouTube Shorts.
+- Nunca se muestran caras, nombres ni colegio de niños reales.
+- La app solo se muestra con capturas o grabaciones reales, nunca generada con IA.
+- Emojis: uno por párrafo como máximo, solo del set fijo de la marca que define el índice (uno para
+  tareas 🎯, premios, puntos ⭐, familia, link en bio y pregunta). Léelo en el índice antes de usarlos.
+
 ## Datos
 
 - Siempre familias, niños y correos ficticios (`@ejemplo.local`), creados por los scripts en la base de pruebas.

@@ -51,6 +51,12 @@ Reels (grabar, guion, render): `references/reel.md`. Voz y reglas de contenido: 
 8. **Guarda**: commit en `pudokids-marketing` con la carpeta de la pieza (rutas explícitas) y push.
    Entrega las rutas de los PNG o del MP4 y una propuesta de texto para el post (2 a 4 líneas, cierra
    con pudokids.com).
+9. **Registra en Drive** (carpeta PudoKids › Redes Sociales): agrega la pieza, con sus textos lámina por
+   lámina, su estado y el enlace a su carpeta en GitHub, al documento «Piezas de Instagram — textos y
+   archivos» (02 Producción de contenido › Guiones y briefs). Lee antes «00 Índice — Redes Sociales
+   Pudokids»: sus decisiones mandan. Las imágenes y videos no se pueden subir con el conector; abre la
+   carpeta en Finder (`open`) para que el dueño las arrastre (en edición: 02 › En edición; publicadas:
+   03 Publicado › AAAA-MM).
 
 ## Listón de calidad
 
