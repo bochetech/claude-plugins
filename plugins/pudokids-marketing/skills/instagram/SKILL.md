@@ -51,12 +51,25 @@ Reels (grabar, guion, render): `references/reel.md`. Voz y reglas de contenido: 
 8. **Guarda**: commit en `pudokids-marketing` con la carpeta de la pieza (rutas explícitas) y push.
    Entrega las rutas de los PNG o del MP4 y una propuesta de texto para el post (2 a 4 líneas, cierra
    con pudokids.com).
-9. **Registra en Drive** (carpeta PudoKids › Redes Sociales): agrega la pieza, con sus textos lámina por
-   lámina, su estado y el enlace a su carpeta en GitHub, al documento «Piezas de Instagram — textos y
-   archivos» (02 Producción de contenido › Guiones y briefs). Lee antes «00 Índice — Redes Sociales
-   Pudokids»: sus decisiones mandan. Las imágenes y videos no se pueden subir con el conector; abre la
-   carpeta en Finder (`open`) para que el dueño las arrastre (en edición: 02 › En edición; publicadas:
-   03 Publicado › AAAA-MM).
+9. **Registra en Drive** (carpeta PudoKids › Redes Sociales). Lee antes «00 Índice — Redes Sociales
+   Pudokids»: sus decisiones mandan.
+   - Agrega la pieza, con sus textos lámina por lámina, su estado y el enlace a su carpeta en GitHub,
+     al documento «Piezas de Instagram — textos y archivos» (02 Producción de contenido › Guiones y briefs).
+   - Sube las imágenes o el video con rclone (remoto `gdrive`), a una carpeta con el nombre de la pieza.
+     Lo no publicado va a 02 › En edición; para lo publicado, la carpeta del mes en 03 Publicado. Si
+     está en otra carpeta, muévela; no la dupliques.
+     ```bash
+     cd ~/Developer/pudokids-marketing/instagram
+     rclone copy <pieza>/laminas "gdrive:<pieza>" --drive-root-folder-id 18T4o7lzVAl1TrJcDylJ9zjXskQXsPnSW   # En edición
+     rclone lsf -R "gdrive:<pieza>" --drive-root-folder-id 18T4o7lzVAl1TrJcDylJ9zjXskQXsPnSW                  # verificar
+     ```
+     En un reel, sube `salida/` en vez de `laminas/`. Para lo publicado, busca el id de la carpeta del mes
+     (`AAAA-MM`) dentro de 03 Publicado (id `1EukjstOm3H2yWJSB0760fa4NIFkQrmGj`) con
+     `rclone lsf --dirs-only gdrive: --drive-root-folder-id 1EukjstOm3H2yWJSB0760fa4NIFkQrmGj`, o créala
+     con `rclone mkdir`.
+   - Si rclone falla porque falta el remoto o el token venció, pídele al dueño que corra
+     `rclone config reconnect gdrive:` (o `rclone config create gdrive drive scope=drive` si nunca lo
+     configuró) y reintenta. Nunca muestres ni copies el contenido de `rclone.conf`: tiene el token.
 
 ## Listón de calidad
 

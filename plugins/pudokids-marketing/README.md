@@ -16,4 +16,5 @@ Forma parte del marketplace personal [`boche`](../../README.md). Instalación:
 ## Qué necesita
 
 - El repo `bochetech/pudokids-marketing` en `~/Developer/pudokids-marketing`. El skill lo clona si falta.
+- `rclone` con un remoto `gdrive` hacia el Google Drive del dueño, para subir las piezas.
 - Node y Playwright. Para las capturas y los reels, además, la app `kids-challenge` corriendo en local con la base de pruebas.
