@@ -18,6 +18,12 @@
       "source": "./plugins/estrategia-agil",
       "description": "Estrategia ágil para organizaciones: guía las fases de estrategia, implementación y escalamiento, la One Page Strategy con OKR y el seguimiento, documentado en Notion o Markdown.",
       "category": "estrategia"
+    },
+    {
+      "name": "pudokids-marketing",
+      "source": "./plugins/pudokids-marketing",
+      "description": "Piezas de Instagram de Pudokids con la marca de la app: carruseles, imágenes sueltas y reels, desde plantillas guardadas en el repo pudokids-marketing.",
+      "category": "marketing"
     }
   ]
 }
