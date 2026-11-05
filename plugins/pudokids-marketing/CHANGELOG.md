@@ -1,5 +1,8 @@
 # Changelog — pudokids-marketing
 
+## 0.1.2
+- Sube las imágenes o el video de cada pieza a Drive con rclone (02 › En edición, o 03 Publicado › AAAA-MM) y lo verifica.
+
 ## 0.1.1
 - Registra cada pieza en Drive (PudoKids › Redes Sociales) y sigue las decisiones de su índice: emojis de la marca, nada de niños reales, la app solo con capturas reales.
 
