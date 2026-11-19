@@ -12,7 +12,8 @@ identidad y los bloques de estilo se copian **textuales** en cada prompt; no se 
 
 ## Decisiones vigentes
 
-- **Pudux va sin corona** y con el polerón turquesa (decisión del 19-11-2026).
+- **Pudux va sin corona** en las ilustraciones y con el polerón turquesa (decisión del 19-11-2026). El
+  logo de la app y el de las plantillas conservan la corona y no se tocan.
 - **Mamá Pudú va sin cuernos** desde el 08-11-2026: en los pudúes reales solo los machos tienen. La
   ficha `pudux_mama.png` todavía tiene cuernos y delantal, por eso su ancla dice «NO antlers». Los
   reels publicados con cuernos (IG-002 e IG-008) no se corrigen.

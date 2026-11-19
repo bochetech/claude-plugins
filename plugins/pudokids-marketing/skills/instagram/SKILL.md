@@ -36,8 +36,10 @@ prompts y voces): `references/reel-ilustrado.md`. Voz y reglas de contenido: `re
 
 ## Pasos
 
-1. **Propón el texto antes de armar nada.** Muestra al dueño, lámina por lámina, el tipo y el texto
-   (o el guion toma por toma, si es reel), y espera su visto bueno. Las mejoras se conversan una por una.
+1. **Parte del plan del mes aprobado.** La aprobación va en dos niveles (decisión del 19-11-2026): el
+   dueño aprueba una vez el plan del mes (tema, gancho y formato de cada pieza) y después solo la pieza
+   final. No le pidas aprobar el texto lámina por lámina. Si la pieza no está en el plan aprobado, o si
+   cambias su tema o su gancho, pregúntale antes de armarla.
 2. **Copia la plantilla** a `instagram/<pieza>/`, con un nombre corto en minúsculas y con guiones. Para
    repetir una pieza, copia esa pieza; para una nueva, `_plantilla-carrusel`.
 3. **Escribe `contenido.js`** (o `src/guion.ts` en un reel). En lo posible, no toques `plantilla.html`.

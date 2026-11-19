@@ -4,7 +4,8 @@
 - Las reglas visuales que vivían en Drive pasan al plugin: listón de calidad completo (zonas seguras, medidas, fotogramas a revisar) y referencia nueva `reel-ilustrado.md` con personajes, estilo, prompts y voces.
 - El texto del post va sin URL y termina con «Enlace en la biografía».
 - Cada pieza vive en su carpeta de En edición con su ficha; «Piezas de Instagram — textos y archivos» queda archivado.
-- Pudux va sin corona en los reels ilustrados; TikTok y Shorts, postergados.
+- Pudux va sin corona en las ilustraciones (el logo no se toca); TikTok y Shorts, postergados.
+- Aprobación en dos niveles: el plan del mes una vez y después solo la pieza final.
 
 ## 0.1.2
 - Sube las imágenes o el video de cada pieza a Drive con rclone (02 › En edición, o 03 Publicado › AAAA-MM) y lo verifica.
