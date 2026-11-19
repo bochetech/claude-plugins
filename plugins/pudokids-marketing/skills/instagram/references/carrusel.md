@@ -1,5 +1,8 @@
 # Carruseles e imágenes sueltas
 
+Guía completa, con colores, medidas de cada tipo de lámina, mascota, íconos, capturas y decisiones
+del dueño: `GUIA-CARRUSELES.md` en la raíz del repo de piezas. Este archivo es el resumen para trabajar.
+
 Formato: láminas de 1080×1350 (4:5). `plantilla.html` dibuja todas las láminas de `contenido.js`. Si
 la abres sin parámetros, muestra todas reducidas para revisarlas; con `?lamina=N`, solo esa, a tamaño
 real. `exportar.mjs` toma una captura de pantalla de cada lámina con Playwright y la guarda como
